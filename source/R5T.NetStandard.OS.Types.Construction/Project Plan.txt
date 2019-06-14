@@ -1,0 +1,4 @@
+R5T.NetStandard.OS.Types.Construction - A construction console entry-point for the R5T.NetStandard.OS.Types library (A base-library of OS-related types.).
+
+Goals
+
