@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.NetStandard.OS.Types.Construction", "R5T.NetStandard.OS.Types.Construction\R5T.NetStandard.OS.Types.Construction.csproj", "{403EACCF-F827-4347-BFE0-C5D279B8D050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.OS.Types.Construction", "R5T.NetStandard.OS.Types.Construction\R5T.NetStandard.OS.Types.Construction.csproj", "{403EACCF-F827-4347-BFE0-C5D279B8D050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.NetStandard.OS.Types", "R5T.NetStandard.OS.Types\R5T.NetStandard.OS.Types.csproj", "{A67982E0-287D-49EC-B8C1-450B64855147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.OS.Types", "R5T.NetStandard.OS.Types\R5T.NetStandard.OS.Types.csproj", "{A67982E0-287D-49EC-B8C1-450B64855147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.NetStandard.OS.Types.Testing", "R5T.NetStandard.OS.Types.Testing\R5T.NetStandard.OS.Types.Testing.csproj", "{4C1CEFC4-DCBF-409F-99A6-D89857659E8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.OS.Types.Testing", "R5T.NetStandard.OS.Types.Testing\R5T.NetStandard.OS.Types.Testing.csproj", "{4C1CEFC4-DCBF-409F-99A6-D89857659E8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{9D472BBA-E578-43AF-B893-4BE7B4655245}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.TypedString", "..\..\R5T.NetStandard.TypedString\source\R5T.NetStandard.TypedString\R5T.NetStandard.TypedString.csproj", "{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.Types", "..\..\R5T.NetStandard.Types\source\R5T.NetStandard.Types\R5T.NetStandard.Types.csproj", "{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.Extensions", "..\..\R5T.NetStandard.Extensions\source\R5T.NetStandard.Extensions\R5T.NetStandard.Extensions.csproj", "{F75180F3-6341-45F4-9F31-9FB0CADA67C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{403EACCF-F827-4347-BFE0-C5D279B8D050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +63,52 @@ Global
 		{4C1CEFC4-DCBF-409F-99A6-D89857659E8B}.Release|x64.Build.0 = Release|Any CPU
 		{4C1CEFC4-DCBF-409F-99A6-D89857659E8B}.Release|x86.ActiveCfg = Release|Any CPU
 		{4C1CEFC4-DCBF-409F-99A6-D89857659E8B}.Release|x86.Build.0 = Release|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Debug|x64.Build.0 = Debug|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Debug|x86.Build.0 = Debug|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Release|x64.ActiveCfg = Release|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Release|x64.Build.0 = Release|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Release|x86.ActiveCfg = Release|Any CPU
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE}.Release|x86.Build.0 = Release|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Debug|x64.Build.0 = Debug|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Debug|x86.Build.0 = Debug|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Release|x64.ActiveCfg = Release|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Release|x64.Build.0 = Release|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Release|x86.ActiveCfg = Release|Any CPU
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Release|x86.Build.0 = Release|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|x64.Build.0 = Debug|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|x86.Build.0 = Debug|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|x64.ActiveCfg = Release|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|x64.Build.0 = Release|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE} = {9D472BBA-E578-43AF-B893-4BE7B4655245}
+		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F} = {9D472BBA-E578-43AF-B893-4BE7B4655245}
+		{F75180F3-6341-45F4-9F31-9FB0CADA67C2} = {9D472BBA-E578-43AF-B893-4BE7B4655245}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9AEFF78-8ED0-415E-B0A1-D32A7924E1B7}
 	EndGlobalSection
 EndGlobal
