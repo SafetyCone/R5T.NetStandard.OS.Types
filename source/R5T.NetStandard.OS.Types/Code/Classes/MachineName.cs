@@ -10,11 +10,11 @@ namespace R5T.NetStandard.OS
         #region Static
 
         /// <summary>
-        /// Gets the name of the machine executing the code (the <see cref="Environment.MachineName"/> value).
+        /// Gets the <see cref="Environment.MachineName"/> value.
         /// </summary>
-        public static MachineName GetExecuting()
+        public static MachineName Environment()
         {
-            var executingMachineName = Environment.MachineName.AsMachineName();
+            var executingMachineName = System.Environment.MachineName.AsMachineName();
             return executingMachineName;
         }
 

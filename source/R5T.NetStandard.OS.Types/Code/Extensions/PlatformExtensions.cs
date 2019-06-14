@@ -33,7 +33,7 @@ namespace R5T.NetStandard.OS
         /// <summary>
         /// Returns the alternate platform.
         /// </summary>
-        public static Platform GetAlternatePlatform(this Platform platform)
+        public static Platform AlternatePlatform(this Platform platform)
         {
             var alternatePlatform = Utilities.GetAlternatePlatform(platform);
             return alternatePlatform;
