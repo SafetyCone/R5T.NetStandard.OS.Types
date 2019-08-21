@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.TypedString
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.Types", "..\..\R5T.NetStandard.Types\source\R5T.NetStandard.Types\R5T.NetStandard.Types.csproj", "{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.Extensions", "..\..\R5T.NetStandard.Extensions\source\R5T.NetStandard.Extensions\R5T.NetStandard.Extensions.csproj", "{F75180F3-6341-45F4-9F31-9FB0CADA67C2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,18 +85,6 @@ Global
 		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Release|x64.Build.0 = Release|Any CPU
 		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Release|x86.ActiveCfg = Release|Any CPU
 		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F}.Release|x86.Build.0 = Release|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|x64.Build.0 = Debug|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Debug|x86.Build.0 = Debug|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|x64.ActiveCfg = Release|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|x64.Build.0 = Release|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|x86.ActiveCfg = Release|Any CPU
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,7 +92,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7447910E-0BCE-445B-AEB7-B3CE4DACF0BE} = {9D472BBA-E578-43AF-B893-4BE7B4655245}
 		{5BE0FF6C-ECAA-4B8B-ABD4-A4ADB250AF0F} = {9D472BBA-E578-43AF-B893-4BE7B4655245}
-		{F75180F3-6341-45F4-9F31-9FB0CADA67C2} = {9D472BBA-E578-43AF-B893-4BE7B4655245}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9AEFF78-8ED0-415E-B0A1-D32A7924E1B7}
